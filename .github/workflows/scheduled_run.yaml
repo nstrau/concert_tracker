@@ -1,0 +1,6 @@
+# trigger: schedule: - cron: "0 14 * * 1"
+# checkout repo
+# set up Python environment
+# install dependencies
+# inject secrets (store secrets in github -> settings -> secrets)
+# run python -m src.main
