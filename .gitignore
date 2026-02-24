@@ -1,0 +1,8 @@
+.env
+test_config.py
+test_db.py
+test_logger.py
+test_fetch.py
+test_notif.py
+venv/
+__pycache__/

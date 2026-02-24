@@ -1,0 +1,17 @@
+System pipeline
+
+Github Actions Scheduler -> Docker container -> Main.py -> pipeline.py -> fetcher -> database -> notifier -> SQLite storage
+
+Fetch concerts from Ticketmaster API -> normalize and extract key fields ->
+compare with DB -> insert new concerts into DB -> if new concerts found, send email notification
+
+Tech Stack:
+Python for code
+Ticketmaster Discovery API for getting info
+SQLite for DB
+smtplib for sending email
+Github Actions for Scheduler
+
+---------------------------------------------------------------------
+                   TRY TO ADD PRICE RANGE
+---------------------------------------------------------------------
